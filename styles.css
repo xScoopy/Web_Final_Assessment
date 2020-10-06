@@ -1,0 +1,52 @@
+#main-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+
+}
+#left-column{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    width: 25vw;
+    height: auto;
+}
+#right-column{
+    display:flex;
+    flex-direction: column;
+    padding: 10px;
+    width:25vw;
+    height: auto;
+}
+/* Form stylings */
+#input-form{
+    display: flex;
+    flex-direction: column;
+}
+label{
+    padding: 5px;
+    
+}
+input{
+    padding: 2px;
+}
+#data-input{
+    padding: 10px;
+    border: 2px solid black;
+}
+/* display stylings */
+#headline-display{
+    border: 2px solid black;
+    
+    text-align: center;
+    padding: 25px;
+}
+/* name section stylings */
+#student-info{
+    padding: 10px;
+}
+/* data output stylings */
+#data-output{
+    padding: 25px;
+}
